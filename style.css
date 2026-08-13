@@ -536,3 +536,214 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 }
 
 }
+.site-nav{
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:999;
+    backdrop-filter:blur(16px);
+    -webkit-backdrop-filter:blur(16px);
+    background:rgba(15,15,15,.65);
+    border-bottom:1px solid rgba(224,165,66,.15);
+    transition:.35s;
+}
+
+.site-nav.scrolled{
+    background:rgba(12,12,12,.85);
+    box-shadow:0 10px 40px rgba(0,0,0,.45);
+}
+.hero{
+    position:relative;
+    overflow:hidden;
+}
+
+.hero::before{
+    content:"";
+    position:absolute;
+    width:500px;
+    height:500px;
+    background:radial-gradient(circle,#E0A54255 0%,transparent 70%);
+    top:-150px;
+    right:-120px;
+    filter:blur(80px);
+    animation:floatGlow 8s ease-in-out infinite;
+}
+
+@keyframes floatGlow{
+
+0%,100%{
+transform:translateY(0);
+}
+
+50%{
+transform:translateY(30px);
+}
+
+}
+.btn{
+    position:relative;
+    overflow:hidden;
+}
+
+.btn::before{
+
+content:"";
+position:absolute;
+top:0;
+left:-130%;
+width:120%;
+height:100%;
+
+background:
+linear-gradient(
+120deg,
+transparent,
+rgba(255,255,255,.35),
+transparent);
+
+transition:.8s;
+
+}
+
+.btn:hover::before{
+
+left:130%;
+
+}
+.project-row{
+
+transition:.4s;
+
+}
+
+.project-row:hover{
+
+transform:translateY(-8px);
+
+border-color:#E0A542;
+
+box-shadow:
+0 18px 40px rgba(224,165,66,.18);
+
+}
+.skill-card{
+
+transition:.4s;
+
+transform-style:preserve-3d;
+
+}
+
+.skill-card:hover{
+
+transform:
+translateY(-10px)
+rotateX(5deg);
+
+box-shadow:
+0 20px 40px rgba(224,165,66,.18);
+
+border-color:#E0A542;
+
+}
+img{
+
+transition:.5s;
+
+}
+
+.project-row:hover img{
+
+transform:scale(1.04);
+
+}
+::-webkit-scrollbar{
+
+width:10px;
+
+}
+
+::-webkit-scrollbar-track{
+
+background:#111;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+background:#E0A542;
+
+border-radius:20px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+background:#f5c25f;
+
+}
+footer{
+
+position:relative;
+
+overflow:hidden;
+
+}
+
+footer::before{
+
+content:"";
+
+position:absolute;
+
+width:350px;
+
+height:350px;
+
+background:
+radial-gradient(circle,#E0A54222,transparent 70%);
+
+right:-150px;
+
+bottom:-150px;
+
+filter:blur(70px);
+
+}
+.avatar-photo{
+
+transition:.6s;
+
+}
+
+.avatar-photo:hover{
+
+transform:scale(1.03);
+
+filter:drop-shadow(0 20px 40px rgba(224,165,66,.3));
+
+}
+html{
+
+scroll-behavior:smooth;
+
+}
+.hoop-ring{
+
+animation:rotateRing 20s linear infinite;
+
+transform-origin:center;
+
+}
+
+@keyframes rotateRing{
+
+from{
+transform:rotate(0deg);
+}
+
+to{
+transform:rotate(360deg);
+}
+
+}
