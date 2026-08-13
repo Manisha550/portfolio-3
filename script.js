@@ -197,20 +197,7 @@
       });
     }
 
-    /* ---------- 9. contact form (static site — no backend) ---------- */
-    var form = document.querySelector(".contact-form");
-    if (form) {
-      form.addEventListener("submit", function (e) {
-        e.preventDefault();
-        var name = form.querySelector("[name='name']").value.trim();
-        var email = form.querySelector("[name='email']").value.trim();
-        var message = form.querySelector("[name='message']").value.trim();
-        if (!name || !email || !message) return;
-        var subject = encodeURIComponent("Portfolio inquiry from " + name);
-        var body = encodeURIComponent(message + "\n\nFrom: " + name + " (" + email + ")");
-        window.location.href = "mailto:manishasumu887@gmail.com?subject=" + subject + "&body=" + body;
-      });
-    }
+  
 
     /* ---------- 10. copy-email button ---------- */
     var copyBtn = document.querySelector(".copy-email-btn");
