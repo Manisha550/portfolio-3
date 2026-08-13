@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sumaiya Islam | UI/UX Designer &amp; Frontend Developer</title>
+<meta name="description" content="Sumaiya Islam is a UI/UX designer, frontend developer, and AI enthusiast from Chattogram, Bangladesh. A CSE graduate designing research-first products, from a diabetes-tracking app to a university dashboard redesign.">
+<meta property="og:title" content="Sumaiya Islam | UI/UX Designer &amp; Frontend Developer">
+<meta property="og:description" content="Product design case studies in health-tech, e-commerce, and dashboard redesigns, built and coded by hand.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================================================================
+     RUNNING-STITCH SCROLL PROGRESS
+     A dashed thread that fills in as you scroll the page — the
+     site's signature motif, echoing Nakshi-Kantha embroidery.
+     ================================================================ -->
+<div id="stitch-progress" aria-hidden="true" style="position:fixed;top:0;left:0;right:0;height:3px;z-index:999;pointer-events:none;">
+  <svg viewBox="0 0 1200 6" preserveAspectRatio="none" style="width:100%;height:100%;">
+    <path id="stitch-path" d="M0,3 L1200,3" stroke="#E0A542" stroke-width="3" stroke-dasharray="6 8" fill="none" vector-effect="non-scaling-stroke"/>
+  </svg>
+</div>
+
+<!-- ================================================================
+     NAVIGATION
+     ================================================================ -->
+<header class="site-nav">
+  <div class="nav-inner">
+    <a href="#top" class="brand">
+      <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true">
+        <path d="M4,16 C9,6 14,26 16,16 C18,6 23,26 28,16" />
+      </svg>
+      <span class="brand-text">Sumaiya Islam<small>UI/UX &amp; FRONTEND DESIGN</small></span>
+    </a>
+    <nav class="links">
+      <span class="nav-indicator" aria-hidden="true"></span>
+      <a href="#about">About Me</a>
+      <a href="#work">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+      <a href="assets/resume/sumaiya-islam-cv.pdf" class="btn btn-magnetic" download>Résumé</a>
+    </nav>
+    <button class="menu-btn" aria-label="Open menu" aria-expanded="false"><span></span></button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============================================================
+       HERO
+       Left: thesis statement. Right: the illustrated avatar inside
+       an embroidery hoop — the page's signature moment.
+       ============================================================ -->
+  <section class="hero">
+    <div class="hero-glow" aria-hidden="true"></div>
+    <div class="wrap hero-grid">
+
+      <div class="reveal in">
+        <div class="eyebrow">CHATTOGRAM, BANGLADESH &middot; OPEN TO WORK</div>
+        <h1>Designing interfaces that <em>read clearly</em> under real pressure.</h1>
+        <p class="lede">I'm a UI/UX designer, frontend developer, and Computer Science &amp; Engineering graduate. I work on the products where clarity actually matters: a glucose reading someone checks at 7am, a dashboard a student refreshes before a deadline, an order screen finished one‑handed.</p>
+        <div class="hero-cta">
+          <a href="#work" class="btn btn-magnetic">View case studies <span class="btn-arrow">→</span></a>
+          <a href="assets/resume/sumaiya-islam-cv.pdf" class="btn btn-ghost" download>Download résumé</a>
+        </div>
+        <div class="hero-meta">
+          <div><strong data-count-to="6">0</strong><span>Products designed</span></div>
+          <div><strong data-count-to="8">0</strong><span>Design certifications</span></div>
+          <div><strong data-count-to="1">0</strong><span>IEEE publication, 2026</span></div>
+        </div>
+      </div>
+
+      <!-- ---------- embroidery-hoop avatar ---------- -->
+      <div class="reveal in hoop-wrap">
+        <svg class="hoop-ring" viewBox="0 0 440 440" aria-hidden="true">
+          <circle cx="220" cy="220" r="205"/>
+        </svg>
+
+        <div class="avatar-stage">
+          <img class="avatar-photo" src="assets/images/avatar-illustration.png" width="700" height="700" alt="Illustrated portrait of Sumaiya, in a marigold hijab and a floral dress" loading="eager" fetchpriority="high">
+        </div>
+
+        <div class="hoop-tag">
+          <strong>Sumaiya Islam</strong>
+          <span>UI/UX · FRONTEND · AI</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <svg class="stitch-divider stitch-draw wrap" viewBox="0 0 1200 28" preserveAspectRatio="none"><path d="M0,14 L1200,14"/></svg>
+
+  <!-- ============================================================
+       ABOUT
+       ============================================================ -->
+  <section id="about">
+    <div class="wrap about-grid">
+
+      <div class="reveal">
+        <div class="thread-frame">
+          <div class="thread-frame-inner">
+            <h3>Currently</h3>
+            <ul>
+              <li>AI &amp; UX Intern, FlyRank AI</li>
+              <li>B.Sc. CSE, IIUC, 2022–2026</li>
+              <li>General Secretary, IEEE IIUC SB WIE</li>
+              <li>Based in Chattogram, Bangladesh</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="reveal about-copy">
+        <div class="eyebrow">About Me</div>
+        <h2 style="margin-top:18px; margin-bottom:26px;">Trained as an engineer. Working like one, when it helps the design.</h2>
+        <p>I started in Computer Science &amp; Engineering at International Islamic University Chittagong, which is where the habit came from: before I open Figma, I want to know what the screen is actually for, who's using it, and what happens if the design gets that wrong. <strong>Medi-DiaBioTrack</strong>, my most detailed project, exists because "just show the number" isn't good enough when the number is someone's blood sugar.</p>
+        <p>Most of my design work has come from self-directed projects and short internships rather than one long in-house role, which has pushed me to move fast across formats: a health app, an ordering flow, a brand-driven marketing site, a dashboard redesign, and one motion-led concept site. Alongside design, I've spent the last two years in <strong>leadership roles inside IEEE and IIUC's Computer Club</strong>, running events, coordinating teams, and communicating decisions to people who weren't in the room when they were made.</p>
+        <div class="about-facts">
+          <div><span>Based in</span><strong>Chattogram, Bangladesh</strong></div>
+          <div><span>Currently</span><strong>AI Intern (UX), FlyRank AI</strong></div>
+          <div><span>Education</span><strong>B.Sc. CSE, IIUC, 2022–2026</strong></div>
+          <div><span>Tools</span><strong>Figma, Canva, HTML/CSS/JS</strong></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SELECTED WORK
+       ============================================================ -->
+  <section id="work">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div class="eyebrow">Featured Projects</div>
+        <h2>Six products, six different problems.</h2>
+        <p>Each one links out to a full UX case study: the problem, who it's for, how I researched it, and what I'd still change.</p>
+      </div>
+
+      <div class="project-list">
+
+        <div class="project-row reveal">
+          <a class="row-link" href="projects/medi-diabiotrack.html" aria-label="Open Medi-DiaBioTrack case study"></a>
+          <span class="idx mono">01</span>
+          <div class="title-block">
+            <h3>Medi-DiaBioTrack</h3>
+            <p>A diabetes &amp; vitals tracking app with an AI health assistant and doctor booking, built for people managing a chronic condition day to day.</p>
+          </div>
+          <div class="tags"><span>Mobile app</span><span>Healthcare</span><span>Figma</span></div>
+          <div class="go">Read case study <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></div>
+        </div>
+
+        <div class="project-row reveal">
+          <a class="row-link" href="projects/coffee-time.html" aria-label="Open It's Coffee Time case study"></a>
+          <span class="idx mono">02</span>
+          <div class="title-block">
+            <h3>It's Coffee Time</h3>
+            <p>A coffee-ordering app case study, from sign-up to a completed order, designed around how quickly someone actually orders coffee.</p>
+          </div>
+          <div class="tags"><span>Mobile app</span><span>Ordering flow</span><span>Figma</span></div>
+          <div class="go">Read case study <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></div>
+        </div>
+
+        <div class="project-row reveal">
+          <a class="row-link" href="projects/icecream-solutions.html" aria-label="Open Ice Cream Solutions case study"></a>
+          <span class="idx mono">03</span>
+          <div class="title-block">
+            <h3>Ice Cream Solutions</h3>
+            <p>A brand-forward website for a popsicle line: four flavours, four moods, and a navigation system that carries the packaging's colour logic.</p>
+          </div>
+          <div class="tags"><span>Web</span><span>Branding</span><span>E-commerce</span></div>
+          <div class="go">Read case study <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></div>
+        </div>
+
+        <div class="project-row reveal">
+          <a class="row-link" href="projects/student-dashboard.html" aria-label="Open IIUC Student Dashboard redesign case study"></a>
+          <span class="idx mono">04</span>
+          <div class="title-block">
+            <h3>IIUC Student Dashboard: Redesign</h3>
+            <p>A redesign of my own university's student portal: CGPA, attendance, and course status pulled into one dashboard instead of six separate pages.</p>
+          </div>
+          <div class="tags"><span>Web app</span><span>Redesign</span><span>Education</span></div>
+          <div class="go">Read case study <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></div>
+        </div>
+
+        <div class="project-row reveal">
+          <a class="row-link" href="projects/art-exhibition.html" aria-label="Open Art Exhibition 2025 case study"></a>
+          <span class="idx mono">05</span>
+          <div class="title-block">
+            <h3>Art Exhibition 2025</h3>
+            <p>An immersive digital-gallery concept site, prototyped as a motion walkthrough rather than static screens.</p>
+          </div>
+          <div class="tags"><span>Web concept</span><span>Motion</span><span>Prototype</span></div>
+          <div class="go">Watch walkthrough <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></div>
+        </div>
+
+        <div class="project-row reveal">
+          <a class="row-link" href="https://www.behance.net/gallery/236787007/HomeFind-UIUX-Case-Study-on-Home-Rental-App" target="_blank" rel="noopener" aria-label="Open HomeFind case study on Behance"></a>
+          <span class="idx mono">06</span>
+          <div class="title-block">
+            <h3>HomeFind</h3>
+            <p>A UI/UX case study on a home-rental app, published in full on Behance. External link, opens in a new tab.</p>
+          </div>
+          <div class="tags"><span>Mobile app</span><span>Behance</span></div>
+          <div class="go">View on Behance <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M9 7h8v8"/></svg></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <svg class="stitch-divider stitch-draw wrap" viewBox="0 0 1200 28" preserveAspectRatio="none"><path d="M0,14 L1200,14"/></svg>
+
+  <!-- ============================================================
+       SKILLS
+       ============================================================ -->
+  <section id="skills">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div class="eyebrow">Capabilities</div>
+        <h2>What I actually do, grouped honestly.</h2>
+        <p>Not every category runs equally deep. Frontend is functional, not professional-grade, and I'd rather be accurate about that than list everything as "expert."</p>
+      </div>
+      <div class="skills-grid reveal">
+        <div class="skill-card">
+          <h4>UX</h4>
+          <ul>
+            <li>Problem framing &amp; scoping</li>
+            <li>Information architecture</li>
+            <li>User flows &amp; task mapping</li>
+            <li>Usability heuristics</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h4>UI</h4>
+          <ul>
+            <li>Visual hierarchy &amp; layout</li>
+            <li>Typography systems</li>
+            <li>Mobile-first screen design</li>
+            <li>Iconography &amp; states</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h4>Research</h4>
+          <ul>
+            <li>Competitive analysis</li>
+            <li>Persona development</li>
+            <li>Assumption &amp; risk mapping</li>
+            <li>Post-design reflection</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h4>Prototyping</h4>
+          <ul>
+            <li>Figma interactive prototypes</li>
+            <li>Micro-interaction detailing</li>
+            <li>Wireframing, low → high fidelity</li>
+            <li>Click-through user testing decks</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h4>Frontend</h4>
+          <ul>
+            <li>HTML5 &amp; CSS3</li>
+            <li>Vanilla JavaScript</li>
+            <li>Building this portfolio, for example</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h4>AI tools</h4>
+          <ul>
+            <li>Claude &amp; ChatGPT in-workflow</li>
+            <li>Microsoft 365 Copilot</li>
+            <li>Structured AI prompting</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h4>Design systems</h4>
+          <ul>
+            <li>Component consistency</li>
+            <li>Dashboard &amp; admin UI patterns</li>
+            <li>Design tokens (see this site)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       EXPERIENCE
+       ============================================================ -->
+  <section id="experience">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div class="eyebrow">Experience</div>
+        <h2>Design work, and the leadership that funds the judgment behind it.</h2>
+        <p>My design skill grew alongside a parallel track of organizational leadership. Running teams taught me a lot about writing instructions someone else can actually follow.</p>
+      </div>
+      <div class="timeline reveal">
+        <div class="tl-row"><div class="when mono">JUL 2026–PRESENT</div><div><div class="role">AI Intern, UI/UX</div><div class="org">FlyRank AI</div></div></div>
+        <div class="tl-row"><div class="when mono">MAY 2026–JUN 2026</div><div><div class="role">UI/UX Intern</div><div class="org">CodeAlpha</div></div></div>
+        <div class="tl-row"><div class="when mono">SEP 2025–PRESENT</div><div><div class="role">General Secretary</div><div class="org">IEEE IIUC SB WIE Affinity Group</div></div></div>
+        <div class="tl-row"><div class="when mono">JUN 2025–PRESENT</div><div><div class="role">Event Team Executive</div><div class="org">IEEE CS BDC Women In Computing (WIC) Bangladesh</div></div></div>
+        <div class="tl-row"><div class="when mono">NOV 2024–PRESENT</div><div><div class="role">Social Welfare &amp; PR Secretary</div><div class="org">IIUC Computer Club, Chattogram</div></div></div>
+        <div class="tl-row"><div class="when mono">SEP 2024–SEP 2025</div><div><div class="role">Public Relations Executive</div><div class="org">IEEE Computer Society, IIUC Student Branch</div></div></div>
+        <div class="tl-row"><div class="when mono">MAY 2024–NOV 2024</div><div><div class="role">General Manager</div><div class="org">IshQool Bangladesh</div></div></div>
+        <div class="tl-row"><div class="when mono">MAR 2024–MAY 2024</div><div><div class="role">Squad Leader</div><div class="org">GAOTek Inc., Ontario, Canada (Remote)</div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <svg class="stitch-divider stitch-draw wrap" viewBox="0 0 1200 28" preserveAspectRatio="none"><path d="M0,14 L1200,14"/></svg>
+
+  <!-- ============================================================
+       EDUCATION & CERTIFICATES
+       ============================================================ -->
+  <section id="education">
+    <div class="wrap about-grid even">
+      <div class="reveal">
+        <div class="eyebrow">Education</div>
+        <h2 style="margin-top:18px; margin-bottom:26px;">The record, in full.</h2>
+        <div class="thread-frame">
+          <div class="thread-frame-inner">
+            <ul>
+              <li>B.Sc. Computer Science &amp; Engineering, International Islamic University Chittagong, 2022–2026</li>
+              <li>Higher Secondary Certificate (Science), Bangladesh Mahila Samiti Girls' High School &amp; College, GPA 5.00/5.00</li>
+              <li>Secondary School Certificate (Science), Agrabad Girls' School, GPA 4.94/5.00</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="reveal">
+        <div class="eyebrow">Certificates</div>
+        <h2 style="margin-top:18px; margin-bottom:26px;">Ongoing, not a one-time badge.</h2>
+        <div class="thread-frame">
+          <div class="thread-frame-inner">
+            <ul>
+              <li>UI/UX Design Career Track, Batch 44, Ostad</li>
+              <li>Mobile App Development Training, CUET EDGE</li>
+              <li>Microsoft 365 Copilot Learning Series</li>
+              <li>AI Fluency for Nonprofits &amp; for Students, Anthropic</li>
+              <li>Claude 101, Anthropic</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       RESUME
+       ============================================================ -->
+  <section id="resume">
+    <div class="wrap">
+      <div class="contact-shell reveal" style="text-align:center;">
+        <div class="eyebrow" style="justify-content:center;">Resume</div>
+        <h2 style="margin-top:18px; max-width:none;">One PDF, the whole picture.</h2>
+        <p style="color:var(--muted); max-width:520px; margin:18px auto 0;">Education, certifications, publications, and the full project list, all in one document, if a scan of this page isn't enough.</p>
+        <a href="assets/resume/sumaiya-islam-cv.pdf" class="btn btn-magnetic" download style="margin-top:34px;">Download résumé (PDF) <span class="btn-arrow">↓</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CONTACT
+       ============================================================ -->
+  <section id="contact">
+    <div class="wrap">
+      <div class="contact-shell reveal">
+        <div class="eyebrow">Get in touch</div>
+        <h2>Have a product that needs the same kind of clarity? I'd like to hear the problem.</h2>
+        <div class="contact-grid">
+          <div class="contact-links">
+            <div class="email-row">
+              <a href="mailto:manishasumu887@gmail.com"><span>Email</span>manishasumu887@gmail.com</a>
+              <button type="button" class="copy-email-btn" data-email="manishasumu887@gmail.com">Copy</button>
+            </div>
+            <a href="https://www.linkedin.com/in/sumaiya-islam-manisha-391bb2285/" target="_blank" rel="noopener"><span>LinkedIn</span>/in/sumaiya-islam-manisha</a>
+            <a href="https://github.com/Manisha550" target="_blank" rel="noopener"><span>GitHub</span>github.com/Manisha550</a>
+            <a href="https://www.behance.net/gallery/236787007/HomeFind-UIUX-Case-Study-on-Home-Rental-App" target="_blank" rel="noopener"><span>Behance</span>HomeFind case study</a>
+            <a href="assets/resume/sumaiya-islam-cv.pdf" download><span>Résumé</span>Download PDF</a>
+          </div>
+          <form class="contact-form">
+            <input type="text" name="name" placeholder="Your name" required>
+            <input type="email" name="email" placeholder="Your email" required>
+            <textarea name="message" rows="4" placeholder="What are you building?" required></textarea>
+            <button type="submit">Send message <span class="btn-arrow">→</span></button>
+            <span class="form-note">Opens your email client. This is a static site with no backend attached yet.</span>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap footer-inner">
+    <p>© <span data-year></span> Sumaiya Islam. Designed and built by hand, section by section.</p>
+    <div class="footer-links">
+      <a href="#about">About Me</a>
+      <a href="#work">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <a href="#top" class="to-top">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
