@@ -386,7 +386,46 @@
             <a href="https://www.behance.net/gallery/236787007/HomeFind-UIUX-Case-Study-on-Home-Rental-App" target="_blank" rel="noopener"><span>Behance</span>HomeFind case study</a>
             <a href="assets/resume/sumaiya-islam-cv.pdf" download><span>Résumé</span>Download PDF</a>
           </div>
-          <form class="contact-form">
+          <form
+  class="contact-form"
+  action="https://api.web3forms.com/submit"
+  method="POST"
+>
+  <input
+    type="hidden"
+    name="access_key"
+    value="f4777b94-7ccf-4842-a0d0-48f29b0f644a"
+  >
+
+  <input
+    type="text"
+    name="name"
+    placeholder="Your name"
+    required
+  >
+
+  <input
+    type="email"
+    name="email"
+    placeholder="Your email"
+    required
+  >
+
+  <textarea
+    name="message"
+    rows="4"
+    placeholder="What are you building?"
+    required
+  ></textarea>
+
+  <button type="submit">
+    Send Message <span class="btn-arrow">→</span>
+  </button>
+
+  <span class="form-note">
+    I'll get back to you as soon as possible.
+  </span>
+</form>
             <input type="text" name="name" placeholder="Your name" required>
             <input type="email" name="email" placeholder="Your email" required>
             <textarea name="message" rows="4" placeholder="What are you building?" required></textarea>
