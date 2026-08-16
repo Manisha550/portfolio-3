@@ -1,25 +1,142 @@
-# Sumaiya Islam — Portfolio (v2)
+# Sumaiya Islam – Portfolio
 
-Plain HTML5, CSS3, and vanilla JavaScript. No frameworks, no build step.
+## Overview
 
-## Structure
-- `index.html` — home page (hero, about, work, skills, experience, contact)
-- `style.css` — the whole design system (colors/type/components) as CSS custom properties
-- `script.js` — mobile menu, scroll reveal, running-stitch progress thread, contact form
-- `projects/` — your 5 original case-study pages (unchanged, still self-contained)
-- `assets/` — images, résumé PDF, and the Art Exhibition walkthrough video
+This portfolio showcases my UX/UI design projects, frontend development work, and learning journey in AI-assisted design. It highlights real projects, case studies, and design decisions while maintaining a clean, accessible, and user-focused interface.
 
-## Run it locally
-Open `index.html` directly, or serve it:
+## Live Website
+
+**Portfolio:** https://portfolio-3-sage.vercel.app/
+
+## GitHub Repository
+
+**Repository:** https://github.com/Manisha550/portfolio-3
+
+---
+
+# Features
+
+* Responsive portfolio website
+* Clean and minimal user interface
+* Featured UX/UI case studies
+* Project showcase section
+* About Me section
+* Skills and tools
+* Contact section
+* Smooth navigation and animations
+* Mobile-friendly layout
+
+---
+
+# Tech Stack
+
+* HTML5
+* CSS3
+* JavaScript (Vanilla JS)
+* Figma
+* Git & GitHub
+* Vercel
+
+---
+
+# Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Manisha550/portfolio-3.git
 ```
-python3 -m http.server 8000
-```
-then visit http://localhost:8000
 
-## Notes
-- The photo has been replaced with a hand-coded, animated illustration (an
-  "avatar" in your hijab's marigold + the dress's leaf-green) rather than a
-  real photo, framed inside an embroidery hoop — the page's signature motif.
-- The 5 case-study pages under `projects/` still use the *original* design
-  system (light background). Say the word if you'd like them restyled to
-  match the new dark marigold theme too.
+Open the project folder and launch `index.html` in your browser, or use a local development server such as the VS Code Live Server extension.
+
+---
+
+# Usage
+
+Visitors can:
+
+* Learn about my background
+* Explore featured UX/UI projects
+* View design case studies
+* Review my skills and tools
+* Contact me through the portfolio
+
+---
+
+# Project Structure
+
+```
+portfolio-3/
+│
+├── index.html
+├── css/
+├── js/
+├── assets/
+├── images/
+└── README.md
+```
+
+---
+
+# Architecture
+
+```
+User
+   │
+   ▼
+Portfolio Website
+   │
+   ├── Home
+   ├── About
+   ├── Projects
+   ├── Skills
+   └── Contact
+```
+
+---
+
+# Evaluation (Version 2)
+
+### Improvements
+
+* Improved visual hierarchy
+* Better typography consistency
+* More responsive layouts
+* Cleaner navigation
+* Improved accessibility
+* Consistent spacing and color usage
+* Real project screenshots replace decorative visuals
+
+---
+
+# Limitations
+
+* Contact form currently has limited backend functionality.
+* More UX case studies will be added in future updates.
+* Dark mode is not yet available.
+
+---
+
+# Future Improvements
+
+* Add additional case studies
+* Improve accessibility further
+* Add project filtering
+* Integrate analytics
+* Publish under a custom domain
+
+---
+
+# AI Usage (Transparency)
+
+AI tools were used to assist with brainstorming, content refinement, proofreading, and documentation. All portfolio design decisions, project selection, customization, testing, and final implementation were reviewed and completed by me.
+
+---
+
+# Author
+
+**Sumaiya Islam**
+
+UX/UI Designer • CSE Student • AI & UX Learner
+
+Chattogram, Bangladesh
