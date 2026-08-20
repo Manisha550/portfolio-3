@@ -150,6 +150,11 @@ Checked typography, spacing, colors and alignment.
 Issues found during testing were fixed before the final version.
 ---
 
+## Project Deliverables (AI Fluency Track)
+- 📄 [Retrospective](https://github.com/Manisha550/portfolio-3/blob/main/RETROSPECTIVE.md)
+- 🎥 [Demo Video] (https://drive.google.com/file/d/1NgfdbIhQKFlnw_vLxaz_gZu0oUFO0DCY/view?usp=drive_link)
+- 🌐 [Live Site](https://portfolio-3-sage.vercel.app/)
+
 # Author
 
 **Sumaiya Islam**
