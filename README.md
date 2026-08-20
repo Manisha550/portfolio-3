@@ -131,6 +131,23 @@ Portfolio Website
 
 AI tools were used to assist with brainstorming, content refinement, proofreading, and documentation. All portfolio design decisions, project selection, customization, testing, and final implementation were reviewed and completed by me.
 
+
+# Portfolio Testing
+
+## Navigation
+Checked all major navigation links.
+
+## Responsive Design
+Tested desktop and mobile layouts.
+
+## Project Links
+Checked project and external links.
+
+## Visual Consistency
+Checked typography, spacing, colors and alignment.
+
+## Result
+Issues found during testing were fixed before the final version.
 ---
 
 # Author
